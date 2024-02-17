@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ch {
+            display: grid;
+            height: 80px;
+            width: 638px;
+            grid-template-columns: repeat(8, 80px);
+            grid-template-rows: repeat(8, 80px);
+            border: 2px solid black;
+        }
+
+        .c {
+            /* border: 2px solid black ; */
+            font-size: 65px;
+            display: grid;
+            justify-content: center;
+            align-content: center;
+        }
+
+        .cc:nth-child(2n+1) {
+            background-color: black;
+            color: white;
+        }
+
+        .ccc:nth-child(2n) {
+            background-color: black;
+            color: white;
+        }
+
+        .ic:hover {
+            transform: scale(1.5);
+        }
+    </style>
+</head>
+
+<body>
+    <div style="display: grid; justify-content: center;">
+        <div class="ch">
+            <div class="c cc ic">&#9814;</div>
+            <div class="c cc ic">&#9816;</div>
+            <div class="c cc ic">&#9815;</div>
+            <div class="c cc ic">&#9819;</div>
+            <div class="c cc ic">&#9818;</div>
+            <div class="c cc ic">&#9815;</div>
+            <div class="c cc ic">&#9816;</div>
+            <div class="c cc ic">&#9814;</div>
+        </div>
+        <div class="ch">
+            <div class="c ccc ic">&#9817;</div>
+            <div class="c ccc ic">&#9817;</div>
+            <div class="c ccc ic">&#9817;</div>
+            <div class="c ccc ic">&#9817;</div>
+            <div class="c ccc ic">&#9817;</div>
+            <div class="c ccc ic">&#9817;</div>
+            <div class="c ccc ic">&#9817;</div>
+            <div class="c ccc ic">&#9817;</div>
+        </div>
+        <div class="ch">
+            <div class="c cc"></div>
+            <div class="c cc"></div>
+            <div class="c cc"></div>
+            <div class="c cc"></div>
+            <div class="c cc"></div>
+            <div class="c cc"></div>
+            <div class="c cc"></div>
+            <div class="c cc"></div>
+        </div>
+        <div class="ch">
+            <div class="c ccc"></div>
+            <div class="c ccc"></div>
+            <div class="c ccc"></div>
+            <div class="c ccc"></div>
+            <div class="c ccc"></div>
+            <div class="c ccc"></div>
+            <div class="c ccc"></div>
+            <div class="c ccc"></div>
+        </div>
+        <div class="ch">
+            <div class="c cc"></div>
+            <div class="c cc"></div>
+            <div class="c cc"></div>
+            <div class="c cc"></div>
+            <div class="c cc"></div>
+            <div class="c cc"></div>
+            <div class="c cc"></div>
+            <div class="c cc"></div>
+        </div>
+        <div class="ch">
+            <div class="c ccc"></div>
+            <div class="c ccc"></div>
+            <div class="c ccc"></div>
+            <div class="c ccc"></div>
+            <div class="c ccc"></div>
+            <div class="c ccc"></div>
+            <div class="c ccc"></div>
+            <div class="c ccc"></div>
+        </div>
+        <div class="ch">
+            <div class="c cc ic">&#9823;</div>
+            <div class="c cc ic">&#9823;</div>
+            <div class="c cc ic">&#9823;</div>
+            <div class="c cc ic">&#9823;</div>
+            <div class="c cc ic">&#9823;</div>
+            <div class="c cc ic">&#9823;</div>
+            <div class="c cc ic">&#9823;</div>
+            <div class="c cc ic">&#9823;</div>
+        </div>
+        <div class="ch">
+            <div class="c ccc ic">&#9820;</div>
+            <div class="c ccc ic">&#9822;</div>
+            <div class="c ccc ic">&#9821;</div>
+            <div class="c ccc ic">&#9819;</div>
+            <div class="c ccc ic">&#9818;</div>
+            <div class="c ccc ic">&#9821;</div>
+            <div class="c ccc ic">&#9822;</div>
+            <div class="c ccc ic">&#9820;</div>
+        </div>
+    </div>
+
+</body>
+
+</html>
